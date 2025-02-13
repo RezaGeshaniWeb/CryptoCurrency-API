@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Currency (API)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="img/bitcoin.png">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body>
+    <main class="w-full bg-white">
+        <header class="w-full h-[70px] bg-slate-100 border-b-2 border-b-gray-900 fixed top-0 z-50">
+            <nav class="w-full h-full">
+                <ul
+                    class="w-full h-full flex justify-between *:h-full *:capitalize *:w-[17%] *:flex *:justify-center *:items-center *:font-bold">
+                    <li>#</li>
+                    <li>Name</li>
+                    <li>current price</li>
+                    <li>high 24h</li>
+                    <li>low 24h</li>
+                    <li>24h %</li>
+                    <li>chart</li>
+                </ul>
+            </nav>
+        </header>
+        <section class="w-full mt-[70px]" id="list"></section>
+        <div class="spinner-box">
+            <div class="circle-border">
+                <div class="circle-core"></div>
+            </div>
+        </div>
+        <!-- loading -->
+        <span class="loader"></span>
+        <!-- info -->
+        <div class="hidden w-[170px] h-[170px] rounded-full border-[1px] border-orange-400 outline-[1px] outline-orange-400 
+         outline-offset-8 fixed bottom-[30px] left-[40px] lg:flex items-center justify-center select-none z-50 group">
+            <div class="circle w-[165px] h-[165px] rounded-full">
+                <img src="img/me5.webp" alt="" class="w-full h-full rounded-full object-cover">
+            </div>
+            <strong class="absolute top-[45%] left-[-87px] -rotate-[90deg] text-[15px] italic text-gray-900">Frontend Developer</strong>
+            <a href="https://www.linkedin.com/in/reza-geshani-web"><i
+                    class="bi bi-linkedin group-hover:visible text-[26px] text-gray-800 absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 top-[-10px] right-[-48px]"></i></a>
+            <a href="https://www.instagram.com/rezageshani_web"><i
+                    class="bi bi-instagram group-hover:visible text-[26px] absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 text-gray-800 top-[40px] right-[-70px]"></i></a>
+            <a href="https://github.com/RezaGeshaniWeb/"><i
+                    class="bi bi-github group-hover:visible text-[26px] absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 text-gray-800 top-[90px] right-[-70px]"></i></a>
+            <a href="mailto:rezageshaniweb@gmail.com"><i
+                    class="bi bi-envelope-at group-hover:visible text-[26px] absolute invisible transition-all duration-150 py-[10px] px-[30px] hover:opacity-100 text-gray-800 top-[130px] right-[-48px]"></i></a>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
