@@ -9,7 +9,7 @@
 
 - Created - 2025-02-13
 
-- Technologies Used - Html , Css , TailwindCSS , Javascript
+- Technologies Used - Html , Css , TailwindCSS , Javascript , API
 
 - Role - Frontend
 
